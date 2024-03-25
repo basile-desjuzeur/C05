@@ -1,10 +1,8 @@
 int	ft_recursive_power(int nb, int power)
 {
 	int	result;
-	int	i;
 
 	result = 1;
-	i = 1;
 	if (power < 0)
 		return (0);
 	if (power == 0 && nb == 0)
